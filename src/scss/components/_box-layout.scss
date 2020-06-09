@@ -1,0 +1,33 @@
+.box-layout {
+  align-items: center;
+  background-image: linear-gradient(to right top, #d19c6b, #e2937f, #e68e9c, #da90bb, #bf99d5, #b59adf, #a89ce9, #979ef2, #ac94f4, #c686f1, #e175e6, #fb5fd5);
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  font-style: italic;
+  color: black;
+}
+
+.box-layout__box {
+  background: fade-out(black, .9);
+  border-radius: 10px;
+  padding: $l-size $m-size;
+  text-align: center;
+  width: 35rem;
+  height: 30rem;
+}
+.oya {
+  margin-bottom: 10rem;
+  background: fade-out(white, .9);
+  border-radius: 5px;
+}
+
+.box-layout__title {
+  margin: 0 0 $m-size 0;
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+}

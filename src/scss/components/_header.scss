@@ -1,0 +1,25 @@
+.header {
+  background-image: linear-gradient(to right top, #370505, #6f2918, #a5571b, #cf8e14, #ebcc12);
+  // background-position: center;
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.header__title {
+  color: rgb(15, 14, 14);
+  background: #e77111;
+  text-decoration: none;
+  border-radius: 10px;
+  border-width: thick;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  h1 {
+    margin: 0;
+  }
+}
