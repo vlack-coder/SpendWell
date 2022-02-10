@@ -14,7 +14,7 @@
     "json-server": "^0.16.1",
     "materialize-css": "^1.0.0",
     "moment": "^2.26.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "numeral": "^2.0.6",
     "react": "^16.13.1",
     "react-dates": "^21.8.0",
